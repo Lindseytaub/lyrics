@@ -42,3 +42,8 @@ gem 'httparty'
 
 gem 'musix_match'
 
+
+gem 'rspotify'
+
+
+

@@ -1,6 +1,6 @@
 <h1> Results </h1>
 <% @results.each do |track| %>
-  	<p> <%=track['track']['artist_name'] %> </p>
-  	<a href=<%= track['track']['track_share_url'] %>><%= track['track']['track_name'] %> </a>
+  	<p> <%=track['track']['artist_name'] %> -    
+  	   <a href=<%= track['track']['track_share_url'] %>><%= track['track']['track_name'] %> </a> </p>
   <br></br>
 <% end %>
